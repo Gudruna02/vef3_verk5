@@ -22,12 +22,12 @@
         {% for i in k %}
             <tr>
                 <td><a href="/eydavoru/{{ i[0] }}">{{ i[1] }}</a></td>
-                <td><b> {{ i[3] }} </b></td>
+                <td><b>{{ i[3] }}kr</b></td>
             </tr>
         {% endfor %}
             <tr>
                 <td>Samtals: </td>
-                <th> {{ samtals }} </th>
+                <th>{{ samtals }}kr</th>
             </tr>
         </table>
     {% endif %}
