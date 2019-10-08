@@ -1,0 +1,115 @@
+body {
+  background: linear-gradient(-45deg, #60bbdf, #51e4d0, #8ecff8, #3bebb0);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  margin: 0; }
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+
+.rapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div{
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.karfa{
+    margin-top: 10px;
+    width: 60px;
+}
+
+.ok{
+  text-align: center;
+}
+
+table {
+    font-size: 1.2em;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid rgb(113, 231, 206);
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(95, 250, 242);
+  }
+  h1, h3, h4{
+    text-align: center;
+  }
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(86, 217, 226);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(26, 170, 127);
+}
+
+div {
+  border-radius: 5px;
+  padding: 20px;
+  background-color:white;
+}
+
+form, label{
+  text-align: left;
+}

@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='still.css')}}">
+    <link href="/stylesheets/still.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+    <header>
+        {% include "teljari.tpl" %}
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <h3>&copy; 2019 Lorraine Rós</h3>
+    </footer>
+    
+</body>
+</html>
