@@ -4,12 +4,12 @@ import os
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'leyni'
 
-vorur = [   [0,"Arnar","arnar.jpg",],
-            [1,"Guðjón","gudjon.jpg",],
-            [2,"Ágúst","agust.jpg",500],
-            [3,"Lorraine","lorraine.jpg",350],
-            [4,"Wiktor","wiktor.jpg",300],
-            [5,"Oskar","oskar.jpg",500],]
+vorur = [   [0,"Arnar","arnar.jpg","1.000.000"],
+            [1,"Guðjón","gudjon.jpg","700.000"],
+            [2,"Ágúst","agust.jpg","850.000"],
+            [3,"Lorraine","lorraine.jpg","3.000.000"],
+            [4,"Wiktor","wiktor.jpg","500.000"],
+            [5,"Oskar","oskar.jpg","650.000"]]
 
 
 @app.route("/")
